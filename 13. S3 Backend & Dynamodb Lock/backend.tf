@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket = "code-share-bucket"
-    key = "Ansible-Tower-Keypair"
+    key = "chriso/s3file-3.tfstate"
     region = "us-east-1"
     profile = "chris0"
     dynamodb_table = "firstproject"
